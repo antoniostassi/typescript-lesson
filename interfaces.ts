@@ -47,5 +47,3 @@ let newCoords = {
 };
 
 getNewCoords(newCoords);
-
-log('\n -- \n');

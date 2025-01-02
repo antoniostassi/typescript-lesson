@@ -1,3 +1,5 @@
+// Types
+
 // Variable Types
 let myVar1 : number;
 let myVar2 : boolean;
