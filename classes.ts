@@ -48,4 +48,31 @@ playerPosition.getX();
 playerPosition.x = 2;
 playerPosition.getX();
 
+// Of course, this kind of method is functional, but it might not be the best practice to follow.
+// Imagine having a lot of parameters to define, this method would involve a lot of repetitions and a lot of lines of code.
+// For this need, the Constructor comes to our aid
 
+// For example, we can have a class named Person
+
+class Person {
+    firstname: string;
+    lastname: string;
+    age: number;
+    position: Coord;
+    
+    sayHi = () => {
+        console.log(`Hello, ${this.firstname} ${this.lastname}!`);
+    }
+
+    // Here comes the constructor.
+    // The constructor consists in a function that will set default values of our parameters.
+    constructor(firstname: string, lastname:string, age:number) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age
+    }
+}
+
+let user: Person = new Person('Antonio', 'Stassi', 24);
+user.sayHi(); // It will display on console "Hello, Antonio Stassi!"
+ 
