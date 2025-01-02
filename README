@@ -4,12 +4,12 @@ This repository has been created with the goal to explain basics (and remember b
 
 Here you have a list of the suggested order of arguments you should study approaching the repo.
 
-<ul>
-    <li>main.ts ( for testing )</li>
-    <li>types.ts</li>
-    <li>functions.ts</li>
-    <li>interfaces.ts</li>
-</ul>
+
+    - main.ts ( for testing )</li>
+    - types.ts</li>
+    - functions.ts</li>
+    - interfaces.ts</li>
+
 
 ## Requirements
 Good knowledge of Javascript
