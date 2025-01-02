@@ -11,5 +11,5 @@ Here you have a list of the suggested order of arguments you should study approa
 
 ## Requirements
 - Medium knowledge of Javascript
-- <a href="https://github.com/nodejs">Nodejs</a>
-- <a href="https://github.com/typescript">Typescript</a>
+- <a href="https://github.com/nodejs">Nodejs</a> installed
+- <a href="https://github.com/typescript">Typescript</a> installed
