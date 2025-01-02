@@ -10,6 +10,6 @@ Here you have a list of the suggested order of arguments you should study approa
     - interfaces.ts
 
 ## Requirements
-- Good knowledge of Javascript
-- Typescript installed
+- Medium knowledge of Javascript
 - <a href="https://github.com/nodejs">Nodejs</a>
+- <a href="https://github.com/typescript">Typescript</a>
