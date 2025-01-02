@@ -16,7 +16,6 @@ let getDistance = (coordA: Coord, coordB: Coord) => {};
 // So we can use CLASSES
 
 class Coord {
-    // Properties
     x: number;
     y: number;
 

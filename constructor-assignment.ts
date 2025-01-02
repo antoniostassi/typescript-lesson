@@ -39,8 +39,11 @@ class User {
 
     // You don't need to specify "public", but we will do this time to make it more clear.
     public changeEmail = (newValue: string) => this.email = newValue;
-
     public getEmail = () => { return this.email }; // This function will return the value of this.email
+
+    // We also have a second method to do that:
+    get Email() { return this.email };
+    set Email(value: string) { this.email = value };
 }
 
 // So, if we want to READ the property, we will need to use the function getEmail.
@@ -53,4 +56,8 @@ console.log(myUser.getEmail()); // It will log in console the email.
 myUser.changeEmail('example@test.com'); // Changes the email in a new one.
 console.log(myUser.getEmail()); // It will log in console the email.
 
+
+// Second method: 
+console.log(myUser.Email); // Will return the email
+myUser.Email = 'test@example.com'; // Will change email
 
