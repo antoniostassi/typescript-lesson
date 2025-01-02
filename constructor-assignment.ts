@@ -26,13 +26,13 @@ class Account {
 
 // This class provides the same result of "TestAccount" class, in less lines of code.
 
-// But now, how will we be able to read or modify the private or protected parameters? 
+// But now, how will we be able to read or modify the private or protected property? 
 // Simple.
 // Using public functions!
 
 class User {
     constructor(private email:string) {}
-    // Think a situation where you have a class with a private email parameter. How can you change it?
+    // Think a situation where you have a class with a private email property. How can you change it?
 
     // We can use a public function that grants access to it.
     // changeEmail = (newValue: string) => this.email = newValue;
@@ -43,8 +43,8 @@ class User {
     public getEmail = () => { return this.email }; // This function will return the value of this.email
 }
 
-// So, if we want to READ the parameter, we will need to use the function getEmail.
-// If we want to change the value of the parameter, we will use changeEmail.
+// So, if we want to READ the property, we will need to use the function getEmail.
+// If we want to change the value of the property, we will use changeEmail.
 // Here is an example
 
 const myUser : User = new User('test@example.com');

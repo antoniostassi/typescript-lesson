@@ -16,7 +16,7 @@ let getDistance = (coordA: Coord, coordB: Coord) => {};
 // So we can use CLASSES
 
 class Coord {
-    // Parameters
+    // Properties
     x: number;
     y: number;
 
@@ -33,7 +33,7 @@ class Coord {
     }
 
     teleportTo(another: Coord) {}
-    // We don't need to give as argument the current Coord parameters because they are part of one unit, 
+    // We don't need to give as argument the current Coord properties because they are part of one unit, 
     // the function can directly access the properties in the same unit.
 
 }
@@ -49,7 +49,7 @@ playerPosition.x = 2;
 playerPosition.getX();
 
 // Of course, this kind of method is functional, but it might not be the best practice to follow.
-// Imagine having a lot of parameters to define, this method would involve a lot of repetitions and a lot of lines of code.
+// Imagine having a lot of properties to define, this method would involve a lot of repetitions and a lot of lines of code.
 // For this need, the Constructor comes to our aid
 
 // For example, we can have a class named Person
@@ -65,7 +65,7 @@ class Person {
     }
 
     // Here comes the constructor.
-    // The constructor consists in a function that will set default values of our parameters.
+    // The constructor consists in a function that will set default values of our properties.
     constructor(firstname : string, lastname :string, age? :number) {
         // age?:number gives the right to age to be optional 
         this.firstname = firstname;
