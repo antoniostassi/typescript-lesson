@@ -57,7 +57,7 @@ playerPosition.getX();
 class Person {
     firstname: string;
     lastname: string;
-    age: number;
+    age: number | undefined;
     position: Coord;
     
     sayHi = () => {
@@ -66,10 +66,11 @@ class Person {
 
     // Here comes the constructor.
     // The constructor consists in a function that will set default values of our parameters.
-    constructor(firstname: string, lastname:string, age:number) {
+    constructor(firstname : string, lastname :string, age? :number) {
+        // age?:number gives the right to age to be optional 
         this.firstname = firstname;
         this.lastname = lastname;
-        this.age = age
+        this.age = age;
     }
 }
 
