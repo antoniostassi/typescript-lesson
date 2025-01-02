@@ -8,6 +8,7 @@ Here you have a list of the suggested order of arguments you should study approa
     - types.ts
     - functions.ts
     - interfaces.ts
+    - classes.ts
 
 ## Requirements
 - Medium knowledge of Javascript

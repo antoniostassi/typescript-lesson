@@ -29,7 +29,7 @@ class Coord {
     getCoords() {} 
     changeCoords() {}
     public getX = () => {
-        console.log( this.x )
+        console.log('Coord X: ' + this.x )
     }
 
     teleportTo(another: Coord) {}
