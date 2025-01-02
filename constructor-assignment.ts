@@ -42,6 +42,7 @@ class User {
     public getEmail = () => { return this.email }; // This function will return the value of this.email
 
     // We also have a second method to do that:
+    // This method is called Property
     get Email() { return this.email };
     set Email(value: string) { this.email = value };
 }
