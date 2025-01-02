@@ -35,7 +35,7 @@ class User {
     // Think a situation where you have a class with a private email parameter. How can you change it?
 
     // We can use a public function that grants access to it.
-    //changeEmail = (newValue: string) => this.email = newValue;
+    // changeEmail = (newValue: string) => this.email = newValue;
 
     // You don't need to specify "public", but we will do this time to make it more clear.
     public changeEmail = (newValue: string) => this.email = newValue;
