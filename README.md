@@ -9,6 +9,8 @@ Here you have a list of the suggested order of arguments you should study approa
     - functions.ts
     - interfaces.ts
     - classes.ts
+    - access-modifiers.ts
+    - constructor-assignment.ts
 
 ## Requirements
 - Medium knowledge of Javascript
